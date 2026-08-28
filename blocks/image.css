@@ -1,0 +1,71 @@
+.image__card {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.image__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/close-edit.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.image__close:hover {
+  background-image: url(../images/close-edit-hover.png);
+}
+
+.image__show {
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: contain;
+  display: block;
+}
+
+.image__name {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Inter", Arial, sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .image__close {
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .image__close {
+    width: 26px;
+    height: 26px;
+    top: 12px;
+    right: 12px;
+  }
+
+  .image__show {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  .image__name {
+    font-size: 10px;
+  }
+}
