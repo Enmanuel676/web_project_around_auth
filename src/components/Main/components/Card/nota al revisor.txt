@@ -1,0 +1,2 @@
+Los botones siguen visibles porque el token fijo de around-api hace que todas las cartas pertenezcan al mismo usuario; la condición sí se evalúa.
+

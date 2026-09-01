@@ -58,7 +58,6 @@
 
   height: 27px;
 }
-
 .grid__like {
   position: absolute;
   bottom: 28.5px;
@@ -72,7 +71,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .grid__like:hover {
   background-image: url(../images/heart-over.png);
 }
@@ -91,106 +89,18 @@
   position: absolute;
   left: 500px;
 }
-
-.image__card {
-  display: none;
-}
-.image__card_hidden {
-  width: 100%;
-  height: 1210px;
-  backdrop-filter: blur(3px);
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.image__close {
-  position: absolute;
-  left: 970px;
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-  background-image: url(../images/close-edit.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  z-index: 3;
-  top: 50px;
-}
-.image__close:hover {
-  background-image: url(../images/close-edit-hover.png);
-}
-.image__show {
-  position: absolute;
-  width: 720px;
-  height: 540px;
-  left: 250px;
-  top: 90px;
-}
-.image__name {
-  position: absolute;
-  max-width: 291px;
-  top: 626px;
-  left: 250px;
-  color: white;
-  background-color: black;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.52px;
-}
-@media screen and (max-width: 1025px) {
-  .image__card_hidden {
-    height: 1191px;
-  }
-  .image__close {
-    left: 870px;
-  }
-  .image__show {
-    left: 150px;
-  }
-  .image__name {
-    left: 150px;
-  }
-}
-@media screen and (max-width: 1005px) {
-  .image__card_hidden {
-    height: 1574px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .image__close {
-    left: 620px;
-  }
-  .image__show {
-    max-width: 570px;
-    left: 90px;
-  }
-}
-
 @media screen and (max-width: 665px) {
-  .grid {
+.grid {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .grid__card {
+.grid__card {
     width: 100%;
-  }
-  .image__card_hidden {
-    height: 2723px;
-  }
-  .image__close {
-    left: 530px;
-  }
-  .image__show {
-    max-width: 500px;
-    left: 70px;
   }
 }
 @media screen and (max-width: 425px) {
-  .grid {
+.grid {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -203,40 +113,5 @@
     margin-top: 36px;
     row-gap: 20px;
     width: 100%;
-  }
-  .image__close {
-    margin-top: 90px;
-    left: 320px;
-  }
-  .image__show {
-    margin-top: 90px;
-    height: 299px;
-    width: 280px;
-  }
-  .image__name {
-    top: 480px;
-    left: 70px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .image__close {
-    left: 290px;
-  }
-  .image__show {
-    left: 45px;
-  }
-  .image__name {
-    left: 45px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .image__close {
-    left: 265px;
-  }
-  .image__show {
-    left: 20px;
-  }
-  .image__name {
-    left: 20px;
   }
 }
