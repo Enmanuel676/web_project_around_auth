@@ -1,0 +1,7 @@
+Notas sobre el avanze del proyecto del Sprint 18 en los dias de 28-30 agosto 2026
+
+28-8-26: Hecha la interfaz de Login Register Headers y Popup de los estados de registro. Completados los ejercicios .1 y .2
+
+29-8-26 Hazer los ejercicios .3 y .4
+
+30-8-26 Hazer los ejercicios .5 y .6 y entregar Proyecto 

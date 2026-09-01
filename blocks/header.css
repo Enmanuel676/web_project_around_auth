@@ -1,4 +1,7 @@
 .header {
+  display: flex;
+  flex-direction: column;
+
   margin: auto;
   margin-top: 45px;
   width: 68.75%;
@@ -8,6 +11,38 @@
   margin: 0;
   height: 33px;
   width: 19.659%;
+}
+.header__button {
+  width: 10.625%;
+  height: 44px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: -40px;
+  text-decoration: none;
+}
+.header__button-login {
+  margin-left: 89%;
+
+  width: 11.625%;
+}
+.header__button-register {
+  margin-left: 91%;
+}
+.header__button-email {
+  margin-top: -40px;
+  margin-left: 72%;
+  font-size: 16px;
+  font-family: "Inter";
+  color: #ffffff;
+}
+.header__button-logout {
+  width: 110px;
+
+  margin-left: 85%;
 }
 .header__line {
   border: 1px solid #545454;
@@ -27,5 +62,17 @@
   }
   .header__line {
     margin-top: 32px;
+  }
+  .header__button-email {
+    margin-left: 53%;
+  }
+  .header__button-logout {
+    margin-left: 70%;
+  }
+  .header__button-login {
+    margin-left: 80%;
+  }
+  .header__button-register {
+    margin-left: 80%;
   }
 }

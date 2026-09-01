@@ -19,7 +19,7 @@
 .card__image {
   position: relative;
 }
-.card__delete_hidden{
+.card__delete_hidden {
   display: none;
 }
 .card__delete {
@@ -154,7 +154,7 @@
     left: 150px;
   }
 }
-@media screen and(max-width: 1005px) {
+@media screen and (max-width: 1005px) {
   .image__card_hidden {
     height: 1574px;
   }

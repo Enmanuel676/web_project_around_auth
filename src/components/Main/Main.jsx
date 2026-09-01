@@ -6,6 +6,7 @@ import EditAvatar from "./components/form/EditAvatar/EditAvatar.jsx";
 import Card from "./components/Card/Card.jsx";
 import ImagePopup from "./components/ImagePopup/ImagePopup.jsx";
 import CurrentUserContext from "../../contexts/CurrentUserContext.js";
+import { LogoutNavBar } from "../NavBar/NavBar.jsx";
 
 function Main({
   onOpenPopup,
